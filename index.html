@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Solutions Services</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .card-img-top {
+      max-height: 150px;
+      object-fit: cover;
+    }
+    .card {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card-body h5 {
+      font-weight: bold;
+    }
+    .about-section {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .sidebar {
+      background-color: #e9ecef;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    .contact-form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    </style>
+</head>
+<body>
+  <div class="container my-5">
+    <div class="row text-center">
+      <div class="col-md-4 col-sm-12 mb-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1581092162384-8987c1d64718?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEN1c3RvbSUyMFNvZnR3YXJlJTIwRGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D" class="card-img-top" alt="Service 1">
+          <div class="card-body">
+            <h5 class="card-title">Custom Software Development</h5>
+            <p class="card-text">
+                Description: Tailored software solutions to meet your unique business needs, enhancing efficiency and productivity.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 mb-4">
+        <div class="card">
+          <img src="https://plus.unsplash.com/premium_photo-1684522168034-32f22b4b7eef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q2xvdWQlMjBDb21wdXRpbmclMjBTZXJ2aWNlc3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="Service 2">
+          <div class="card-body">
+            <h5 class="card-title">Cloud Computing Services</h5>
+            <p class="card-text">Description: Scalable and secure cloud computing services to support your business growth and operational flexibility.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 mb-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1573165265437-f5e267bb3db6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fElUJTIwQ29uc3VsdGluZ3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top" alt="Service 3">
+          <div class="card-body">
+            <h5 class="card-title">IT Consulting</h5>
+            <p class="card-text">Description: Expert IT consulting to help you strategize and implement technology solutions that drive business success.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-md-8 col-sm-12 mb-4">
+        <h2>About Us</h2>
+        <p>Welcome to Tech Solutions! We are a leading technology company dedicated to providing innovative and customized tech services that empower businesses to reach new heights. Our team of experts specializes in Custom Software Development, Cloud Computing Services, and IT Consulting, ensuring that each client receives tailored solutions to meet their unique needs. With a commitment to excellence and a passion for innovation, Tech Solutions is your trusted partner in navigating the ever-evolving tech landscape. Let us help you transform your business with cutting-edge technology and unparalleled support.</p>
+      </div>
+      <div class="col-md-4 col-sm-12 mb-4">
+        <h3>Sidebar</h3>
+        <h5>Contact</h5>
+        <p>Email: info@techsolutions.com</p>
+        <p>Phone: (123) 456-7890</p>
+    </div>
+  </div>
+
+  
+  <div class="container my-5">
+    <h2>Contact Us</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="service">Service</label>
+        <select class="form-control" id="service">
+          <option>Service 1</option>
+          <option>Service 2</option>
+          <option>Service 3</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
